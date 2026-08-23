@@ -14,6 +14,8 @@ html {
 }
 
 body {
+  margin: 0;
+  padding: 0;
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(7, 7, 54);
   background: var(--gold);

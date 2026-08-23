@@ -1,6 +1,6 @@
 import './App.css'
 import { useEffect, useRef, useState } from 'react'
-import logo from "./assets/gulio logo.jpg";
+import logo from "./assets/gulio logo.png";  
 import heroProductsImage from "./assets/hero-products.png";
 import lubricantsImage from "./assets/lubricants.jpeg";
 import grindingDiscsImage from "./assets/Grinding Discs.jpeg";
@@ -92,7 +92,7 @@ function App() {
     <div className="App">
       <header className="navbar">
         <div className="navbar__logo">
-          <img src={logo} alt="Gulio Biz logo" />
+          <img src={logo} alt="Gulio Biz Company Limited logo" />
         </div>
         <form className="navbar__search" role="search">
           <input type="search" placeholder="Search industrial products" aria-label="Search industrial products" />
