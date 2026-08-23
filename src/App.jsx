@@ -139,14 +139,44 @@ function App() {
               <p className="stock-kicker">Available <span>stock</span></p>
               <p className="stock-message">Quality products <span>ready for your next operation.</span></p>
             </div>
-            <a className="stock-order-button" href="#contact">Order now <span aria-hidden="true">→</span></a>
           </div>
           <div className="moving-products moving-products--divider" aria-label="Available stock products">
-          <div className="moving-products-track">
-            {[...movingProductImages, ...movingProductImages].map((image, index) => (
-              <img key={`${image}-${index}`} src={image} alt="" />
-            ))}
+            <div className="moving-products-track">
+              {[...movingProductImages, ...movingProductImages].map((image, index) => (
+                <img key={`${image}-${index}`} src={image} alt="" />
+              ))}
+            </div>
           </div>
+          <a className="stock-order-button" href="#contact">Order now <span aria-hidden="true">→</span></a>
+          <div className="stock-benefits" aria-label="Why choose Gulio Biz">
+            <article className="stock-benefit">
+              <div className="stock-benefit-icon" aria-hidden="true">↗</div>
+              <div>
+                <h3>Delivery &amp; logistics</h3>
+                <p>Reliable delivery and shipping support.</p>
+              </div>
+            </article>
+            <article className="stock-benefit">
+              <div className="stock-benefit-icon" aria-hidden="true">▣</div>
+              <div>
+                <h3>Bulk &amp; contract deals</h3>
+                <p>Competitive prices for large orders.</p>
+              </div>
+            </article>
+            <article className="stock-benefit">
+              <div className="stock-benefit-icon" aria-hidden="true">∞</div>
+              <div>
+                <h3>Business &amp; partnership</h3>
+                <p>Long-term supply partnership.</p>
+              </div>
+            </article>
+            <article className="stock-benefit">
+              <div className="stock-benefit-icon" aria-hidden="true">✓</div>
+              <div>
+                <h3>Quality assurance</h3>
+                <p>Products you can buy with confidence.</p>
+              </div>
+            </article>
           </div>
         </div>
 
@@ -169,6 +199,37 @@ function App() {
                   </article>
                 ))}
               </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="why-choose" className="why-choose">
+          <div className="section-container">
+            <div className="why-choose-heading">
+              <p className="why-choose-kicker">why choose <span>gulio biz</span></p>
+              <p className="why-choose-message">Partnership built on <span>trust and reliability.</span></p>
+            </div>
+            <div className="why-choose-grid">
+              <article className="why-choose-card">
+                <div className="why-choose-icon" aria-hidden="true">⚡</div>
+                <h3>Reliable Supply</h3>
+                <p>Consistent stock availability and dependable fulfillment for your ongoing operations.</p>
+              </article>
+              <article className="why-choose-card">
+                <div className="why-choose-icon" aria-hidden="true">◆</div>
+                <h3>Quality Products</h3>
+                <p>Industrial-grade materials rigorously tested to meet the highest performance standards.</p>
+              </article>
+              <article className="why-choose-card">
+                <div className="why-choose-icon" aria-hidden="true">💰</div>
+                <h3>Competitive Prices</h3>
+                <p>Volume discounts and strategic pricing designed to maximize your operational efficiency.</p>
+              </article>
+              <article className="why-choose-card">
+                <div className="why-choose-icon" aria-hidden="true">🤝</div>
+                <h3>Business Support</h3>
+                <p>Dedicated account management and technical support tailored to your business needs.</p>
+              </article>
             </div>
           </div>
         </section>
