@@ -136,7 +136,7 @@ function App() {
         <div className="stock-showcase">
           <div className="stock-showcase-header">
             <div>
-              <p className="stock-kicker">Available <span>stock</span></p>
+              <p className="stock-kicker"><b>Available</b> <span>Stock</span></p>
               <p className="stock-message">Quality products <span>ready for your next operation.</span></p>
             </div>
           </div>
@@ -183,7 +183,7 @@ function App() {
         <section id="services" className="services">
           <div className="section-container">
             <div className="supply-heading">
-              <p className="supply-kicker">what we <span>supply</span></p>
+              <p className="supply-kicker"><b>What We</b> <span>Supply</span></p>
               <p className="supply-message">Reliable products <span>for demanding operations.</span></p>
             </div>
             <div className="service-carousel" ref={servicesScrollRef} aria-label="Our products">
