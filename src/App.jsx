@@ -236,13 +236,13 @@ function App() {
       <main>
         <section id="home" className="hero">
           <div className="hero-content">
-            <p className="hero-small">Reliable industrial solutions</p>
+            <p className="hero-small">Reliable Mining And Industrial Solutions</p>
             <h1>
-              Quality products for <span>demanding operations.</span>
+              Quality Products For <span>Demanding Operations.</span>
             </h1>
             <p>
-              Gulio Biz Company Limited supplies high-quality grinding media,
-              drilling consumables, and industrial products you can depend on.
+              Gulio Biz Company Limited Supplies High-Quality Grinding Media,
+              Drilling Consumables, And Industrial Products You Can Depend On.
             </p>
             <div className="hero-buttons">
               <a href="#contact" className="btn primary">
