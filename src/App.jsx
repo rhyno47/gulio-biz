@@ -7,6 +7,7 @@ import grindingDiscsImage from "./assets/Grinding Discs.jpeg";
 import boltsImage from "./assets/bolts.jpeg";
 import chemicalsImage from "./assets/chemicals.jpeg";
 import toolsImage from "./assets/tools.jpeg";
+import aboutUsImage from "./assets/about us/01.jpg";
 import aboutVisionImage from "./assets/about us/Screenshot_20260822-135105.jpg";
 import aboutProductsImage from "./assets/about us/Screenshot_20260822-135112.jpg";
 import aboutEquipmentImage from "./assets/about us/Screenshot_20260822-135112~3.jpg";
@@ -127,6 +128,7 @@ const products = [
 ];
 
 const aboutSlides = [
+  ["aboutUsImage, aboutUsImage",aboutUsImage],
   ["Our vision, mission and values", aboutVisionImage],
   ["Our products and services", aboutProductsImage],
   ["Mining equipment and industrial supplies", aboutEquipmentImage],
