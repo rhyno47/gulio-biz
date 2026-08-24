@@ -8,13 +8,13 @@ import boltsImage from "./assets/bolts.jpeg";
 import chemicalsImage from "./assets/chemicals.jpeg";
 import toolsImage from "./assets/tools.jpeg";
 import aboutUsImage from "./assets/about us/01.jpg";
-import aboutVisionImage from "./assets/about us/Screenshot_20260822-135105.jpg";
-import aboutProductsImage from "./assets/about us/Screenshot_20260822-135112.jpg";
-import aboutEquipmentImage from "./assets/about us/Screenshot_20260822-135112~3.jpg";
-import aboutProcurementImage from "./assets/about us/Screenshot_20260822-135112~4.jpg";
-import aboutContactImage from "./assets/about us/Screenshot_20260822-135123.jpg";
-import aboutQualityImage from "./assets/about us/Screenshot_20260822-135123~2.jpg";
-import aboutWhyImage from "./assets/about us/Screenshot_20260822-135123~3.jpg";
+import aboutVisionImage from "./assets/about us/02.jpg";
+import aboutProductsImage from "./assets/about us/03.jpg";
+import aboutEquipmentImage from "./assets/about us/04.jpg";
+import aboutProcurementImage from "./assets/about us/05.jpg";
+import aboutContactImage from "./assets/about us/06.jpg";
+import aboutQualityImage from "./assets/about us/07.jpg";
+import aboutWhyImage from "./assets/about us/08.jpg";
 
 const movingProductImages = Object.values(
   import.meta.glob("./assets/moving logos/*.{jpg,jpeg,png,webp}", {
