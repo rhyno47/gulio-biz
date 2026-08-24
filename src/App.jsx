@@ -16,6 +16,7 @@ import aboutContactImage from "./assets/about us/06.jpg";
 import aboutQualityImage from "./assets/about us/07.jpg";
 import aboutWhyImage from "./assets/about us/08.jpg";
 
+
 const movingProductImages = Object.values(
   import.meta.glob("./assets/moving logos/*.{jpg,jpeg,png,webp}", {
     eager: true,
@@ -481,7 +482,7 @@ function App() {
             <p>
               Get in touch and let us know how we can support your business.
             </p>
-            <a href="tel:+255700000000" className="btn primary">
+            <a href="tel:+255666003509" className="btn primary">
               Call Us
             </a>
           </div>
@@ -510,7 +511,7 @@ function App() {
             </a>
 
             <a
-              href="https://wa.me/255700000000"
+              href="https://wa.me/2557666003509"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="WhatsApp"
