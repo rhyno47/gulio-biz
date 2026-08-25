@@ -412,7 +412,7 @@ a {
 .hero h1 span {
   display: block;
   color: #fff;
-  text-shadow: 2px 3px 0 rgba(2, 5, 53, 0.16);
+  text-shadow: 2px 3px 0 rgba(7, 20, 211, 0.16);
 }
 
 .hero p{
@@ -1080,9 +1080,9 @@ a {
   }
 
   .hero h1 {
-    font-size: clamp(32px, 10vw, 40px);
+    font-size: clamp(25px, 10vw, 40px);
     line-height: 1.08;
-    margin-bottom: 18px;
+    margin-bottom: 5px;
   }
 
   .hero p {
