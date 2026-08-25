@@ -400,19 +400,20 @@ a {
 }
 
 .hero h1 {
-  max-width: 720px;
+  max-width: 520px;
   font-family: Georgia, 'Times New Roman', serif;
   font-size: clamp(42px, 5.4vw, 72px);
   font-weight: 700;
   line-height: 1.04;
   letter-spacing: 0;
   margin-bottom: 25px;
+  color: #000e8a;
 }
 
 .hero h1 span {
   display: block;
-  color: #fff;
-  text-shadow: 2px 3px 0 rgba(7, 20, 211, 0.16);
+  color: #ffffff;
+  text-shadow: 2px 3px 0 rgba(3, 10, 97, 0.16);
 }
 
 .hero p{
