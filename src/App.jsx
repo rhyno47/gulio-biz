@@ -239,7 +239,10 @@ function App() {
       <main>
         <section id="home" className="hero">
           <div className="hero-content">
-            <p className="hero-small">Reliable Mining And Industrial Solutions</p>
+
+          
+
+           
             <h1>
               Quality Products For <span>Demanding Operations.</span>
             </h1>
@@ -377,7 +380,7 @@ function App() {
           <div className="section-container">
             <div className="why-choose-heading">
               <p className="why-choose-kicker">
-                why choose <span>gulio biz</span>
+                What Makes Gulio Biz <span>Unique</span>
               </p>
               <p className="why-choose-message">
                 Partnership built on <span>trust and reliability.</span>
@@ -482,7 +485,7 @@ function App() {
             <p>
               Get in touch and let us know how we can support your business.
             </p>
-            <a href="tel:+255666003509" className="btn primary">
+            <a href="tel:+255767215237" className="btn primary">
               Call Us
             </a>
           </div>
@@ -511,7 +514,7 @@ function App() {
             </a>
 
             <a
-              href="https://wa.me/2557666003509"
+              href="https://wa.me/+255767215237"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="WhatsApp"

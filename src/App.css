@@ -371,14 +371,26 @@ a {
 }
 
 .hero-product {
-  position: absolute;
+  position: fixed;
   inset: 0;
   width: 100%;
-  height: 100%;
+  height: 115%;
   object-fit: contain;
+  object-position: center top; /* anchor to top instead of centering */
   filter: drop-shadow(0 16px 18px rgba(45, 35, 12, 0.22));
 }
 
+@media (max-width: 768px) {
+  .hero-product {
+    object-position: center top;
+    /* if the hero container itself has a big min-height/padding on mobile,
+       that's the real source of the gap — trim it here too */
+  }
+
+  .hero {
+    padding-top: 20px; /* reduce if your hero has large top padding on mobile */
+  }
+}
 .hero-small,
 .section-small {
   font-size: 14px;
@@ -633,7 +645,7 @@ a {
   scroll-behavior: smooth;
   scroll-snap-type: x mandatory;
   margin-top: 40px;
-  padding: 8px 0 18px;
+  padding: 0px 0 18px;
   scrollbar-width: none;
 }
 
@@ -702,7 +714,7 @@ a {
 /*why-choose*/
 
 .why-choose {
-  padding: 12px 8% 14px;
+  padding: 0px;
   background: var(--gold);
   color: var(--navy);
 }
@@ -716,11 +728,11 @@ a {
 .why-choose-kicker {
   margin: 0 0 3px;
   font-family: Georgia, 'Times New Roman', serif;
-  font-size: clamp(24px, 3vw, 36px);
+  font-size: clamp(10px, 3vw, 36px);
   font-weight: 800;
   line-height: 1;
   letter-spacing: 0.5px;
-  text-transform: uppercase;
+  text-transform: none;
   color: var(--navy);
 }
 
@@ -991,14 +1003,14 @@ a {
 
   .hero {
     min-height: 620px;
-    padding: 52px 24px 170px;
+    padding: 300px 40px 0px;
   }
 
   .hero-products {
     left: 50%;
     right: auto;
     bottom: -28px;
-    top: auto;
+    top: -2%;
     width: min(112vw, 560px);
     height: 340px;
     transform: translateX(-50%);
