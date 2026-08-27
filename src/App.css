@@ -371,24 +371,23 @@ a {
 }
 
 .hero-product {
-  position: fixed;
+  position: absolute;      /* was: fixed */
   inset: 0;
   width: 100%;
-  height: 115%;
+  height: 100%;             /* was: 115% */
   object-fit: contain;
-  object-position: center top; /* anchor to top instead of centering */
+  object-position: center top;
   filter: drop-shadow(0 16px 18px rgba(45, 35, 12, 0.22));
+  overflow: hidden;   /* add this */
 }
 
 @media (max-width: 668px) {
   .hero-product {
-    object-position: fixed;
-    /* if the hero container itself has a big min-height/padding on mobile,
-       that's the real source of the gap — trim it here too */
+    object-position: center top; /* was: object-position: fixed; (invalid) */
   }
 
   .hero {
-    padding-top: 30px; /* reduce if your hero has large top padding on mobile */
+    padding-top: 30px;
   }
 }
 .hero-small,
