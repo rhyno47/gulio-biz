@@ -378,7 +378,7 @@ a {
   object-fit: contain;
   object-position: center top;
   filter: drop-shadow(0 16px 18px rgba(45, 35, 12, 0.22));
-  overflow: hidden;   /* add this */
+  
 }
 
 @media (max-width: 668px) {
