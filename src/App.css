@@ -383,11 +383,46 @@ a {
 
 @media (max-width: 668px) {
   .hero-product {
-    object-position: center top; /* was: object-position: fixed; (invalid) */
+    object-position: center top;
   }
 
   .hero {
-    padding-top: 30px;
+    display: block;
+    min-height: auto;
+    padding: 28px 20px 0;
+  }
+
+  .hero-content {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    max-width: none;
+  }
+
+  .hero-products {
+    position: relative;
+    z-index: 1;
+    top: auto;
+    right: auto;
+    left: 50%;
+    bottom: auto;
+    width: 118vw;
+    max-width: none;
+    height: auto;
+    margin: 12px 0 0;
+    transform: translateX(-50%);
+  }
+
+  .hero-product {
+    position: relative;
+    inset: auto;
+    width: 100%;
+    height: auto;
+  }
+
+  .hero h1 {
+    max-width: none;
+    margin-bottom: 10px;
   }
 }
 .hero-small,
@@ -1080,20 +1115,20 @@ a {
   }
 
   .hero h1 {
-    font-size: clamp(25px, 10vw, 40px);
+    font-size: clamp(28px, 10vw, 42px);
     line-height: 1.08;
-    margin-bottom: 5px;
+    margin-bottom: 8px;
   }
 
   .hero p {
-    font-size: 16px;
+    font-size: 15px;
     line-height: 1.55;
   }
 
   .hero-buttons {
     flex-wrap: wrap;
     gap: 10px;
-    margin-top: 22px;
+    margin-top: 18px;
   }
 
   .btn {
