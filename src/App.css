@@ -1046,19 +1046,34 @@ a {
   }
 
   .hero {
-    min-height: 520px;
-    padding: 200px 30px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    min-height: auto;
+    padding: 22px 18px 0;
   }
 
   .hero-products {
-    left: 50%;
+    position: relative;
+    z-index: 1;
+    order: 1;
+    left: 0;
     right: auto;
-    bottom: -28px;
-    top: -2%;
-    width: min(112vw, 560px);
-    height: 340px;
-    transform: translateX(-50%);
+    top: auto;
+    bottom: auto;
+    width: calc(100% + 18px);
+    height: auto;
+    margin: 0 -9px 8px;
+    transform: none;
     opacity: 1;
+  }
+
+  .hero-content {
+    position: relative;
+    z-index: 2;
+    order: 2;
+    width: 100%;
+    max-width: none;
   }
 
   .moving-products--divider {
@@ -1206,13 +1221,39 @@ a {
   }
 
   .hero {
-    min-height: 590px;
-    padding-inline: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    min-height: auto;
+    padding: 18px 14px 0;
   }
 
   .hero-products {
-    width: min(112vw, 470px);
-    height: 285px;
+    position: relative;
+    order: 1;
+    left: 0;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    width: calc(100% + 12px);
+    height: auto;
+    margin: 0 -6px 8px;
+    transform: none;
+  }
+
+  .hero-content {
+    order: 2;
+    width: 100%;
+    max-width: none;
+  }
+
+  .hero h1 {
+    font-size: clamp(26px, 11vw, 36px);
+    margin-bottom: 8px;
+  }
+
+  .hero p {
+    font-size: 14px;
   }
 }
 

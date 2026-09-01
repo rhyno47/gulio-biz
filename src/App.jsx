@@ -1,7 +1,7 @@
 import "./App.css";
 import { useEffect, useRef, useState } from "react";
 import logo from "./assets/gulio logo.png";
-import heroProductsImage from "./assets/hero-products.png";
+import heroProductsImage from "./assets/gulio-hero.jpg";
 import lubricantsImage from "./assets/lubricants.jpeg";
 import grindingDiscsImage from "./assets/Grinding Discs.jpeg";
 import boltsImage from "./assets/bolts.jpeg";
