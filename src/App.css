@@ -387,14 +387,17 @@ a {
   }
 
   .hero {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
     min-height: auto;
-    padding: 28px 20px 0;
+    padding: 22px 18px 0;
   }
 
   .hero-content {
     position: relative;
     z-index: 2;
+    order: 1;
     width: 100%;
     max-width: none;
   }
@@ -402,15 +405,16 @@ a {
   .hero-products {
     position: relative;
     z-index: 1;
+    order: 2;
     top: auto;
     right: auto;
-    left: 50%;
+    left: 0;
     bottom: auto;
-    width: 118vw;
+    width: calc(100% + 18px);
     max-width: none;
     height: auto;
-    margin: 12px 0 0;
-    transform: translateX(-50%);
+    margin: 8px -9px 0;
+    transform: none;
   }
 
   .hero-product {
@@ -418,11 +422,16 @@ a {
     inset: auto;
     width: 100%;
     height: auto;
+    display: block;
   }
 
   .hero h1 {
     max-width: none;
     margin-bottom: 10px;
+  }
+
+  .hero p {
+    margin-top: 0;
   }
 }
 .hero-small,
