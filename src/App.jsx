@@ -485,7 +485,11 @@ function App() {
             <p>
               Get in touch and let us know how we can support your business.
             </p>
+            <a href="mailto:info@gulio-biz.co.tz" className="btn primary contact-button">
+              Contact Us
+            </a>
             <div className="contact-details">
+              <a href="tel:+255767215237">+255 767 215 237</a>
               <a href="mailto:info@gulio-biz.co.tz">info@gulio-biz.co.tz</a>
               <a href="mailto:sales@gulio-biz.co.tz">sales@gulio-biz.co.tz</a>
             </div>
