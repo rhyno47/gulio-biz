@@ -14,7 +14,7 @@ import aboutEquipmentImage from "./assets/about us/04.jpg";
 import aboutProcurementImage from "./assets/about us/05.jpg";
 import aboutContactImage from "./assets/about us/06.jpg";
 import aboutQualityImage from "./assets/about us/07.jpg";
-import aboutWhyImage from "./assets/about us/08.jpg";
+import aboutWhyImage from "./assets/about us/08.png";
 
 
 const movingProductImages = Object.values(
@@ -485,9 +485,10 @@ function App() {
             <p>
               Get in touch and let us know how we can support your business.
             </p>
-            <a href="tel:+255767215237" className="btn primary">
-              Call Us
-            </a>
+            <div className="contact-details">
+              <a href="mailto:info@gulio-biz.co.tz">info@gulio-biz.co.tz</a>
+              <a href="mailto:sales@gulio-biz.co.tz">sales@gulio-biz.co.tz</a>
+            </div>
           </div>
         </section>
       </main>
